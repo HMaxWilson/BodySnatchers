@@ -9,59 +9,109 @@
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
         <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="css/fontAwesome.css">
     </head>
+    <style>
+        *{
+            scroll-behavior: smooth;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+        .scrollbar-hide {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+    </style>
 
-    <body class="w-screen h-screen" style="font-font: 'Open Sans', sans-serif;">
+    <body class="w-full h-screen" style="font-font: 'Open Sans', sans-serif;">
         <nav class="z-10 flex flex-col right-6 space-y-4 fixed top-2/4 -translate-y-2/4 ">
             <a href="#home" class="flex flex-row items-center justify-end text-gray-400">
                 <p class="text-sm font-medium pr-2">Home</p>
-                <span class="bg-white rounded-full h-3 w-3 p-1 m-1"></span>
+                <span class="bg-white rounded-full h-1 w-1 p-1 m-1"></span>
             </a>
-            <a href="#about_us" class="flex flex-row justify-end text-gray-400">
+            <a href="#about" class="flex flex-row justify-end text-gray-400">
                 <p class="text-sm font-medium pr-2">About Us</p>
-                <span class="bg-white rounded-full h-3 w-3 p-1 m-1"></span>
+                <span class="bg-white rounded-full h-1 w-1 p-1 m-1"></span>
             </a>
             <a href="#gallery" class="flex flex-row justify-end text-gray-400">
                 <p class="text-sm font-medium pr-2">Gallery</p>
-                <span class="bg-white rounded-full h-3 w-3 p-1 m-1"></span>
+                <span class="bg-white rounded-full h-1 w-1 p-1 m-1"></span>
             </a>
             <a href="#videos" class="flex flex-row justify-end text-gray-400">
                 <p class="text-sm font-medium pr-2">Videos</p>
-                <span class="bg-white rounded-full h-3 w-3 p-1 m-1"></span>
+                <span class="bg-white rounded-full h-1 w-1 p-1 m-1"></span>
             </a>
-            <a href="#location_social" class="flex flex-row justify-end text-gray-400">
-                <p class="text-sm font-medium pr-2">Location & Social Media</p>
-                <span class="bg-white rounded-full h-3 w-3 p-1 m-1"></span>
+            <a href="#location" class="flex flex-row justify-end text-gray-400">
+                <p class="text-sm font-medium pr-2">Location</p>
+                <span class="bg-white rounded-full h-1 w-1 p-1 m-1"></span>
             </a>
             <a href="#sponsorships" class="flex flex-row justify-end text-gray-400">
                 <p class="text-sm font-medium pr-2">Sponsorships</p>
-                <span class="bg-white rounded-full h-3 w-3 p-1 m-1"></span>
+                <span class="bg-white rounded-full h-1 w-1 p-1 m-1"></span>
             </a>
         </nav>
 
 
-        <div class="h-screen w-screen bg-black" id="home">
+        <div class="h-screen w-full p-8 bg-cover" id="home" style="background-image: url('images/Logo_Background.png');">
 
         </div>
 
-        <div class="h-screen w-screen bg-white" id="about_us">
+        <div class="h-screen w-full p-8 bg-cover" id="about" style="background-image: url('images/Marc_Background.jpg');">
 
         </div>
 
-        <div class="h-screen w-screen bg-black" id="gallery">
+        <div class="h-screen w-full bg-black p-8" id="gallery">
 
         </div>
 
-        <div class="h-screen w-screen bg-white" id="videos">
+        <div class="h-screen w-full bg-black p-8" id="videos">
 
         </div>
 
-        <div class="h-screen w-screen bg-black" id="location_social">
+        <div class="flex flex-col h-screen w-full bg-black" id="sponsorships">
+            <h1 class="absolute font-bold inset-x-0 text-center text-3xl pb-2">SPONSORS</h1>
+            <div class="sponsors flex bg-white bg-opacity-25 w-full overflow-scroll scrollbar-hide overflow-y-hidden pt-12 pb-8">
+                <img class="h-52 opacity-75 w-auto" src="images/sponsors/BisterneUnited.jpg" alt="BisterneUnited">
+                <img class="h-52 opacity-75 w-auto" src="images/sponsors/Bloom.jpg" alt="Bloom Cleaning Co.">
+                <img class="h-52 opacity-75 w-auto" src="images/sponsors/Caterebitz.jpg" alt="Caterbitz Luxury Appliances">
+                <img class="h-52 opacity-75 w-auto" src="images/sponsors/Forest.jpg" alt="BisterneUnited">
+                <img class="h-52 opacity-75 w-auto" src="images/sponsors/BisterneUnited.jpg" alt="BisterneUnited">
+                <img class="h-52 opacity-75 w-auto" src="images/sponsors/BisterneUnited.jpg" alt="BisterneUnited">
+            </div>
+            <div class="flex-grow p-8">
+                <div class="bg-white bg-opacity-25 h-full">
 
+                </div>
+            </div>
         </div>
 
-        <div class="h-screen w-screen bg-white" id="sponsorships">
-
+        <div class="flex justify-end h-screen w-full p-8 bg-cover" id="location" style="background-image: url('images/Owen_Background.jpg');">
+            <div class="bg-black bg-opacity-50 p-8 h-full w-1/2">
+                <div class="map h-full">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.695041421885!2d-1.842914583964504!3d50.72559657951433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48739fb731bfe3c9%3A0x9e28594738b4d4da!2sBodySnatchers%20boxing%20ltd!5e0!3m2!1sen!2suk!4v1570535846491!5m2!1sen!2suk" width="100%" height="100%" style="border:0;" allowfullfull=""></iframe>
+                </div>
+            </div>
         </div>
+
+        <footer class="flex flex-col h-auto p-8 w-full bg-gray-900">
+            <a href="#home" class="text-xs text-white font-bold mx-auto px-6 py-4 bg-red-600 rounded-sm">
+                BACK TO TOP
+            </a>
+
+            <div class="flex flex-row justify-center space-x-4 mt-8">
+                <a href="https://www.facebook.com/BodySnatchers-1145464758966417/" class="fa fa-facebook w-14 h-14 text-gray-900 text-center text-4xl font-bold bg-red-600 p-2 rounded-full"></a>
+                <a href="https://www.instagram.com/bodysnatchersbournemouth/" class="fa fa-instagram w-14 h-14 text-gray-900 text-center text-4xl font-bold fa fa-instagram bg-red-600 p-2 rounded-full"></a>
+            </div>
+
+            <div class="flex flex-row justify-center m-8">
+                <p class="text-xs text-white">
+                    Copyright © 2023 BodySnatchers Boxing.
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
