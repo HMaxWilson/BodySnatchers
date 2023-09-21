@@ -10,8 +10,8 @@
         </div>
         <div class="hidden sm:block my-auto">
           <ul class="flex">
+            <li class="px-3 py-1 hover:font-bold"><RouterLink to="/">Home</RouterLink></li>
             <li class="px-3 py-1 hover:font-bold"><RouterLink to="/gallery">Gallery</RouterLink></li>
-            <li class="px-3 py-1 hover:font-bold"><RouterLink to="/coaches">Coaches</RouterLink></li>
           </ul>
         </div>
 
