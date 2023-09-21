@@ -5,7 +5,7 @@
         <div class="flex flex-wrap mx-auto sm:mx-0 text-sm justify-around">
           <a href="/">
             <img
-                class="p-1 rounded-lg bg-white bg-opacity-50 hover:bg-opacity-100"
+                class="p-1 rounded-lg bg-white bg-opacity-30 hover:bg-opacity-50"
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg"
                 width="32"
                 height="32"
@@ -13,7 +13,7 @@
           </a>
           <a href="/" class="px-4">
             <img
-                class="p-1 rounded-lg bg-white bg-opacity-50 hover:bg-opacity-100"
+                class="p-1 rounded-lg bg-white bg-opacity-30 hover:bg-opacity-50"
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg"
                 width="32"
                 height="32"
@@ -21,7 +21,7 @@
           </a>
           <a href="/">
             <img
-                class="p-1 rounded-lg bg-white bg-opacity-50 hover:bg-opacity-100"
+                class="p-1 rounded-lg bg-white bg-opacity-30 hover:bg-opacity-50"
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg"
                 width="32"
                 height="32"

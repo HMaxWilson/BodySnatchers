@@ -1,6 +1,6 @@
 <template>
   <div class="mx-auto text-white">
-    <div class="bg-[url('@/assets/bg-1.jpeg')] bg-fixed bg-cover bg-center min-h-screen p-4 md:p-8">
+    <div class="bg-[url('@/assets/bg-1.jpeg')] bg-fixed bg-cover bg-center p-4 md:p-8">
       <div class="bg-black bg-opacity-50 p-4 mb-4 md:mb-8">
         <h1 class="text-2xl">About BodySnatchers</h1>
         <div class="w-16 my-2 mx-auto border-b-2 border-amber-600"></div>
@@ -10,6 +10,11 @@
           professional coach. Now, I’ve started up my own team. BodySnatchers. Whether you want to box competitively, get fit,
           lose weight, or just enjoy training, BodySnatchers maybe the place for you.
         </p>
+
+
+        <h1 class="text-2xl mt-8">Coaches</h1>
+        <div class="w-16 my-2 mx-auto border-b-2 border-amber-600"></div>
+        <h2 class="text-sm">All our coaches are DBS Checked</h2>
       </div>
 
       <div class="flex flex-wrap md:flex-nowrap">
@@ -20,12 +25,46 @@
           <h3 class="text-lg">£33 Monthly Membership</h3>
           <div class="w-16 my-2 mx-auto border-b-2 border-amber-600"></div>
           <h2 class="text-xl">Timetable</h2>
-          <p>
-            After spending 20 years at Poole Amateur Boxing Club as a boxer and then coach, I then spent 7 years at Phoenix MMA
-            as the boxing coach. In all that time I’ve had over 40 bouts. I’m also a British Boxing Board of Control registered
-            professional coach. Now, I’ve started up my own team. BodySnatchers. Whether you want to box competitively, get fit,
-            lose weight, or just enjoy training, BodySnatchers maybe the place for you.
-          </p>
+
+          <div class="border-2 my-4">
+            <div class="text-normal flex">
+              <div class="w-full p-2">
+                <p class="font-semibold">6 - 9 years</p>
+                <p class="font-semibold">Tuesday, Thursday, Friday</p>
+                <p class="font-light">6:00-6:45pm</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="border-2 my-4">
+            <div class="text-normal sm:flex">
+              <div class="w-full sm:w-1/2 p-2 sm:border-r-[1px] border-b-2 sm:border-b-0">
+                <p class="font-semibold">10 - 13 years (Group 1)</p>
+                <p class="font-semibold">Monday, Thursday, Friday</p>
+                <p class="font-light">6:00-6:45pm</p>
+              </div>
+              <div class="w-full sm:w-1/2 p-2 sm:border-l-[1px]">
+                <p class="font-semibold">10 - 13 years (Group 2)</p>
+                <p class="font-semibold">Tuesday, Thursday, Friday</p>
+                <p class="font-light">6:00-6:45pm</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="border-2 my-4">
+            <div class="text-normal sm:flex">
+              <div class="w-full sm:w-1/2 p-2 sm:border-r-[1px] border-b-2 sm:border-b-0">
+                <p class="font-semibold">Teens</p>
+                <p class="font-semibold">Tuesday, Thursday</p>
+                <p class="font-light">7:00-7:45pm</p>
+              </div>
+              <div class="w-full sm:w-1/2 p-2 sm:border-l-[1px]">
+                <p class="font-semibold">Advance Under 18s</p>
+                <p class="font-semibold">Wednesday</p>
+                <p class="font-light">6:00-6:45pm</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div class="bg-black bg-opacity-50 p-4 w-full md:w-1/2 mb-4 md:ml-4">
@@ -35,12 +74,31 @@
           <h3 class="text-lg">£53 Monthly Membership or £8 Pay Per Class</h3>
           <div class="w-16 my-2 mx-auto border-b-2 border-amber-600"></div>
           <h2 class="text-xl">Timetable</h2>
-          <p>
-            After spending 20 years at Poole Amateur Boxing Club as a boxer and then coach, I then spent 7 years at Phoenix MMA
-            as the boxing coach. In all that time I’ve had over 40 bouts. I’m also a British Boxing Board of Control registered
-            professional coach. Now, I’ve started up my own team. BodySnatchers. Whether you want to box competitively, get fit,
-            lose weight, or just enjoy training, BodySnatchers maybe the place for you.
-          </p>
+
+          <div class="border-2 my-4">
+            <div class="text-normal sm:flex">
+              <div class="w-full sm:w-1/2 p-2 sm:border-r-[1px] border-b-2 sm:border-b-0">
+                <p class="font-semibold">Group 1</p>
+                <p class="font-semibold">Monday, Wednesday, Friday</p>
+                <p class="font-light">7:00-7:45pm</p>
+              </div>
+              <div class="w-full sm:w-1/2 p-2 sm:border-l-[1px]">
+                <p class="font-semibold">Group 2</p>
+                <p class="font-semibold">Tuesday & Thursday</p>
+                <p class="font-light">8:00-8:45pm</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="border-2 my-4">
+            <div class="text-normal flex">
+              <div class="w-full p-2">
+                <p class="font-semibold">Amateurs</p>
+                <p class="font-semibold">Monday & Wednesday</p>
+                <p class="font-light">8:00-8:45pm</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
