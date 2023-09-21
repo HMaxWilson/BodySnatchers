@@ -1,5 +1,5 @@
 <template>
-  <header class="h-20 text-white bg-black border-b-2 border-gray-900 shadow-lg fixed left-0 right-0 transition-all duration-200 ease-in-out z-20"
+  <header class="px-6 h-20 text-white bg-black border-b-2 border-gray-900 shadow-lg fixed left-0 right-0 transition-all duration-200 ease-in-out z-20"
           :class="{'-translate-y-[135%]': scrolled}">
     <div class="container mx-auto">
       <div class="w-full flex justify-between text-sm font-medium leading-5">

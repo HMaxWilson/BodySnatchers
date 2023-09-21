@@ -9,6 +9,7 @@
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg"
                 width="32"
                 height="32"
+                alt="Facebook Link"
             />
           </a>
           <a href="/" class="px-4">
@@ -17,6 +18,7 @@
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg"
                 width="32"
                 height="32"
+                alt="Instagram Link"
             />
           </a>
           <a href="/">
@@ -25,6 +27,7 @@
                 src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg"
                 width="32"
                 height="32"
+                alt="Twitter Link"
             />
           </a>
         </div>

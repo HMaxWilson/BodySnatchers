@@ -12,48 +12,6 @@
         </p>
       </div>
 
-      <div class="bg-black bg-opacity-80 p-4 mb-4 md:mb-8">
-        <h1 class="text-2xl">Coaches</h1>
-        <div class="w-16 my-2 mx-auto border-b-2 border-amber-600"></div>
-        <div class="flex flex-wrap justify-between">
-          <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/6 p-4">
-            <h2 class="text-lg">Marc Plunkett (Head Coach)</h2>
-            <ul class="list-disc text-sm text-left">
-              <li class="ml-6">British Boxing Board of Control registered professional coach</li>
-              <li class="ml-6">England Boxing Level 2 Amateur Coach</li>
-            </ul>
-          </div>
-
-          <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/6 p-4">
-            <h2 class="text-lg">Richard Puncheon</h2>
-            <ul class="list-disc text-sm text-left">
-              <li class="ml-6">England Boxing Level 2 Amateur Coach</li>
-            </ul>
-          </div>
-
-          <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/6 p-4">
-            <h2 class="text-lg">MJ Plunkett</h2>
-            <ul class="list-disc text-sm text-left">
-              <li class="ml-6">England Boxing Level 1 Amateur Coach</li>
-            </ul>
-          </div>
-
-          <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/6 p-4">
-            <h2 class="text-lg">James Stead</h2>
-            <ul class="list-disc text-sm text-left">
-              <li class="ml-6">England Boxing Level 1 Amateur Coach</li>
-            </ul>
-          </div>
-
-          <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/6 p-4">
-            <h2 class="text-lg">Barry Cox</h2>
-            <ul class="list-disc text-sm text-left">
-              <li class="ml-6">England Boxing Level 1 Amateur Coach</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
       <div class="flex flex-wrap md:flex-nowrap">
         <div class="bg-black bg-opacity-80 p-4 w-full md:w-1/2 mb-4 md:mr-4">
           <h1 class="text-2xl">Under-18's</h1>
@@ -147,8 +105,8 @@
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.695041421885!2d-1.842914583964504!3d50.72559657951433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48739fb731bfe3c9%3A0x9e28594738b4d4da!2sBodySnatchers%20boxing%20ltd!5e0!3m2!1sen!2suk!4v1570535846491!5m2!1sen!2suk"
             width="100%"
             height="400"
-            style="border:0;"
             allowfullscreen="true"
+            title="google maps"
         />
 
         <div class="w-full md:w-1/3 pt-4 md:pt-0 md:pl-4 text-left">
@@ -161,6 +119,50 @@
             Bournemouth  <br>
             BH5 1DH
           </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-[url('@/assets/bg-2.jpg')] bg-fixed bg-cover bg-center p-4 md:p-8">
+      <div class="bg-black bg-opacity-80 p-4 mb-4 md:mb-8">
+        <h1 class="text-2xl">Coaches</h1>
+        <div class="w-16 my-2 mx-auto border-b-2 border-amber-600"></div>
+        <div class="flex flex-wrap justify-between">
+          <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/6 p-4">
+            <h2 class="text-lg">Marc Plunkett (Head Coach)</h2>
+            <ul class="list-disc text-sm text-left">
+              <li class="ml-6">British Boxing Board of Control registered professional coach</li>
+              <li class="ml-6">England Boxing Level 2 Amateur Coach</li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/6 p-4">
+            <h2 class="text-lg">Richard Puncheon</h2>
+            <ul class="list-disc text-sm text-left">
+              <li class="ml-6">England Boxing Level 2 Amateur Coach</li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/6 p-4">
+            <h2 class="text-lg">MJ Plunkett</h2>
+            <ul class="list-disc text-sm text-left">
+              <li class="ml-6">England Boxing Level 1 Amateur Coach</li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/6 p-4">
+            <h2 class="text-lg">James Stead</h2>
+            <ul class="list-disc text-sm text-left">
+              <li class="ml-6">England Boxing Level 1 Amateur Coach</li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col w-full sm:w-1/2 md:w-1/3 lg:w-1/6 p-4">
+            <h2 class="text-lg">Barry Cox</h2>
+            <ul class="list-disc text-sm text-left">
+              <li class="ml-6">England Boxing Level 1 Amateur Coach</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
