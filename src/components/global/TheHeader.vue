@@ -1,5 +1,5 @@
 <template>
-  <header class="text-white bg-black border-b-2 border-gray-900 shadow-lg fixed left-0 right-0 transition-all duration-700 ease-in-out"
+  <header class="h-20 text-white bg-black border-b-2 border-gray-900 shadow-lg fixed left-0 right-0 transition-all duration-700 ease-in-out"
           :class="{'-translate-y-[125%]': scrolled}">
     <div class="container mx-auto">
       <div class="w-full flex justify-between text-sm font-medium leading-5">
@@ -11,12 +11,12 @@
         </div>
         <div class="w-1/3 flex justify-start sm:justify-center">
           <RouterLink to="/">
-            <img class="relative sm:-bottom-5" src="https://placehold.co/80x80" alt="BodySnatchers Logo">
+            <img class="relative sm:-bottom-5" src="https://placehold.co/80x80" alt="BodySnatchers Logo" width="80" height="80">
           </RouterLink>
         </div>
         <div class="hidden sm:block my-auto w-1/3">
           <ul class="flex flex-wrap justify-end">
-            <li class="px-3 py-1 hover:font-bold"><RouterLink to="/">Events</RouterLink></li>
+            <li class="px-3 py-1 hover:font-bold"><RouterLink to="/">Gallery</RouterLink></li>
             <li class="px-3 py-1 hover:font-bold"><RouterLink to="/about">About</RouterLink></li>
           </ul>
         </div>
