@@ -12,7 +12,8 @@
         </div>
       </div>
       <div class="text-center py-2">
-        &copy; Template
+        &copy; BodySnatchers Boxing 2023 <br>
+        <a class="inline-block opacity-30 hover:opacity-100" href="https://www.AstroNomad.co.uk/" target="_blank">AstroNomad x Design</a>
       </div>
     </div>
   </footer>
