@@ -13,11 +13,6 @@ const router = createRouter({
       path: '/gallery',
       name: 'gallery',
       component: () => import('../views/GalleryView.vue')
-    },
-    {
-      path: '/coaches',
-      name: 'coaches',
-      component: () => import('../views/CoachesView.vue')
     }
   ]
 })

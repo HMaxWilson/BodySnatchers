@@ -21,7 +21,6 @@
       <div class="bg-black h-screen w-4/5 p-4 pt-12">
         <ul class="flex flex-col text-4xl gap-5 font-normal">
           <li><RouterLink class="hover:font-bold" @click="toggleMobileMenu" to="/">Home</RouterLink></li>
-          <li><RouterLink class="hover:font-bold" @click="toggleMobileMenu" to="/coaches">Coaches</RouterLink></li>
           <li><RouterLink class="hover:font-bold" @click="toggleMobileMenu" to="/gallery">Gallery</RouterLink></li>
         </ul>
       </div>
